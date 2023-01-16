@@ -5,9 +5,9 @@ namespace :dev do
       show_spinner("Apagando BD...") { %x(rails db:drop) }
       show_spinner("Criando BD...") {%x(rails db:create)}
       show_spinner("Migrando BD...") {%x(rails db:migrate)}
-      %x(rails dev:add_coins)
       %x(rails dev:add_mining_types)
-    else 
+      %x(rails dev:add_coins)
+      else 
       puts "Você não está em ambiente de desenvolvimento!"
     end
   end
@@ -19,27 +19,32 @@ namespace :dev do
                   {   
                       description: "Bitcoin",
                       acronym: "BTC",
-                      url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL5GCGNfIIdjPthShVRhI4YQDyvRAuEGmbB_8hewUqXk9IeYaHw9SHm31K_3fl8CL8QkU&usqp=CAU"
+                      url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL5GCGNfIIdjPthShVRhI4YQDyvRAuEGmbB_8hewUqXk9IeYaHw9SHm31K_3fl8CL8QkU&usqp=CAU",
+                      mining_type: MiningType.find_by(acronym: 'PoW')
                   },
                   {   
                       description: "Ethereum",
                       acronym: "ETH",
-                      url: "https://s2.coinmarketcap.com/static/img/coins/200x200/1027.png"
+                      url: "https://s2.coinmarketcap.com/static/img/coins/200x200/1027.png",
+                      mining_type: MiningType.all.sample
                   },
                   {
                       description: "Dash",
                       acronym: "DASH",
-                      url: "https://s2.coinmarketcap.com/static/img/coins/200x200/131.png"
+                      url: "https://s2.coinmarketcap.com/static/img/coins/200x200/131.png",
+                      mining_type: MiningType.all.sample
                   },
                   {
                       description: "Iota",
                       acronym: "IOT",
-                      url: "https://s2.coinmarketcap.com/static/img/coins/200x200/1720.png"
+                      url: "https://s2.coinmarketcap.com/static/img/coins/200x200/1720.png",
+                      mining_type: MiningType.all.sample
                   },
                   {
                       description: "ZCash",
                       acronym: "ZEC",
-                      url: "https://z.cash/wp-content/uploads/2018/10/zcash-logo-fullcolor-512sq.png"
+                      url: "https://z.cash/wp-content/uploads/2018/10/zcash-logo-fullcolor-512sq.png",
+                      mining_type: MiningType.all.sample
                   }
 
                 ]
