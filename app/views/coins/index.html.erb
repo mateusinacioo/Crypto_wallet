@@ -2,12 +2,15 @@
 
 <h1>Moedas</h1>
 
+<h2> <%=cookies[:curso]%> </h2>
+<h2> <%=session[:curso]%> </h2>
+
 <table>
   <thead>
     <tr>
-      <th><%= @coin.human_attribute_name(:description) %></th>
-      <th><%= @coin.human_attribute_name(:acronym) %></th>
-      <th><%= @coin.human_attribute_name(:url) %></th>
+      <th><%= @coins.human_attribute_name(:description) %></th>
+      <th><%= @coins.human_attribute_name(:acronym) %></th>
+      <th><%= @coins.human_attribute_name(:url) %></th>
       <th colspan="3"></th>
     </tr>
   </thead>
