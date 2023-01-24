@@ -1,6 +1,15 @@
-<h1>Seja Bem-Vindo!</h1>
+<p>
+    <%= link_to 'Português', '/?locale=pt-BR' %>
+</p>
 
-<p> <strong> Data: </strong> <%=data_br(Date.today) %> </p>
+<p>
+    <%= link_to 'English', '/?locale=en' %>
+</p>
+
+<h1>Seja Bem-Vindo!</h1>
+<p> O idioma usado nessa aplicação é: <strong><%= t('actual_locale') %></strong></p>
+<p> <strong><%= t('day') %> </strong> <%= l(Date.today) %> </p>
+<p><%= t('hello') %></p>
 
 <%= render "menu"%>
 
