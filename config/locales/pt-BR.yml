@@ -1,5 +1,7 @@
 pt-BR:
+  actual_locale: "Portugês do Brasil"
   hello: "Olá mundo"
+  day: "Data"
   links:
     edit: "Editar"
     show: "Mostrar"
