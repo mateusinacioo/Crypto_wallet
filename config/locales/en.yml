@@ -30,7 +30,11 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  actual_locale: "English (International)"
+  current_locale: "English (International)"
+  welcome: "Welcome!"
+  messages:
+    welcome: "This is the Crypto Wallet for you to register and track your cryptocurrencies."
+    menu: "To get started, choose one of the options below:"
   hello: "Hello world"
   day: "Date"
   links:
