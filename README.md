@@ -10,6 +10,7 @@
 * Ruby 2.5.0
 * Rails 5.2.0
 
+## Inicialização
 * `git clone git@github.com:mateusinacioo/crypto_wallet.git `
 * `bundle install`
 * `cd crypto_wallet/`
