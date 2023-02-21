@@ -4,9 +4,11 @@ pt-BR:
   messages:
     welcome: "Este é o Crypto Wallet para você cadastrar e acompanhar as suas criptomoedas."
     menu: "Para começar, escolha uma das opções abaixo:"
+    confirm: "Tem certeza?"
   hello: "Olá mundo"
   day: "Data"
   links:
     edit: "Editar"
     show: "Mostrar"
     delete: "Apagar"
+    new: "Novo"

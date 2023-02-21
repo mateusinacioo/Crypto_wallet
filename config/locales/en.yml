@@ -35,9 +35,11 @@ en:
   messages:
     welcome: "This is the Crypto Wallet for you to register and track your cryptocurrencies."
     menu: "To get started, choose one of the options below:"
+    confirm: "Are you sure?"
   hello: "Hello world"
   day: "Date"
   links:
     edit: "Edit"
     show: "Show"
     delete: "Delete"
+    new: "New"
