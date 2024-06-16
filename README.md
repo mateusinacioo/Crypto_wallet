@@ -1,4 +1,4 @@
-# Projeto CRUD criado no curso Ruby on Rails 5.x - Do início ao fim!
+# Projeto CRUD Carteira de Crypto Moedas
 
 ## Funcionalidades
 1. Criar nova moeda/tipo de mineração;
@@ -6,6 +6,9 @@
 3. Adicionar link da imagem;
 4. Remover moeda/tipo de mineração;
 5. Mostrar moeda/tipo de mineração
+6. Liguagem Português/Inglês
+
+![CryptoWallet](https://github.com/mateusinacioo/Crypto_wallet/assets/80658605/8f511108-3789-4c77-a28e-0e27d88eba5e)
 
 ## Dependências
 * Ruby 2.5.0
