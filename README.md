@@ -19,6 +19,7 @@
 * `cd crypto_wallet/`
 * `bundle install`
 * `rails db:create db:migrate`
+* `npm install` ou `yarn install`
 * Executar com: `rails s`
 * Abrir no link: `http://localhost:3000/`
 
