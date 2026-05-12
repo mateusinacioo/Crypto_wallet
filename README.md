@@ -11,8 +11,8 @@
 ![CryptoWallet](https://github.com/mateusinacioo/Crypto_wallet/assets/80658605/8f511108-3789-4c77-a28e-0e27d88eba5e)
 
 ## Dependências
-* Ruby 2.5.0
-* Rails 5.2.0
+* Ruby 3.3.0
+* Rails 7.0.10
 
 ## Inicialização
 * `git clone git@github.com:mateusinacioo/crypto_wallet.git `
